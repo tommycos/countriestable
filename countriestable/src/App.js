@@ -9,6 +9,7 @@ const dataProvider = jsonServerProvider(
 const App = () => (
   <Admin dataProvider={dataProvider}>
     <Resource name="countries" list={UserList} />
+    <div>Your text here</div>
   </Admin>
 );
 
